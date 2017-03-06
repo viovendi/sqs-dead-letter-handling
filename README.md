@@ -26,5 +26,5 @@ export AWS_SECRET_ACCESS_KEY=<my-secret-key>
 
 ### sqs-dead-letter-requeue
 ```sh
-bin/sqs-dead-letter-requeue prod-mgmt-website-data-www101-jimdo-com
+bin/sqs-dead-letter-requeue <queue-name> <dead-letter-queue-name> <cycles>
 ```
